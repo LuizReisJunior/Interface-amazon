@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* base principal*/
+
+body{
+    background-color: #252e39;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ 
+}
+
+header nav {
+    padding-right: 900px;
+    
+}
+
+header .logo{
+    margin: 30px 0px 0px 40px ;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: #dddbdb;
+    margin-right: 10px;
+    
+    
+}
+header nav a:hover{
+
+    color: #FFFF;
+}
+
+/*coisas relacionadas ao filme*/
+
+.filme-principal{
+    font-size: 15px;
+    background: linear-gradient(rgb(0, 0, 0, .50), rgb(0, 0, 0, .50)100%), url('/Imagens/capaestendida.png');
+
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 30px;
+}
